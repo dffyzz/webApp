@@ -1,0 +1,11 @@
+
+.emoji-picker-container {
+    position: absolute; /* Position the emoji picker absolutely */
+    bottom: 50px; /* Adjust as necessary to position above the input field */
+    right: 0;
+    z-index: 1000; /* High z-index to appear on top */
+    background-color: white; /* Background color to ensure visibility */
+    border: 1px solid #ccc; /* Optional: Add border for better visibility */
+    border-radius: 5px; /* Optional: Add some border-radius for better appearance */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for better appearance */
+}

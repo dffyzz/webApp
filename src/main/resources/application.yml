@@ -1,0 +1,28 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/web_application
+    username: postgres
+    password: '0123'
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+      jdbc:
+        lob:
+          non_contextual_creation: auto
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+application:
+  security:
+    jwt:
+      secret-key: 936f67365ef8dcbe9bcd93fdc62b1523a59d6d3ae32f9cbaba1f66543170cb44
+      expiration: 86400000
+      refresh-token:
+        expiration: 604800000
+  config:
+    host: "http://localhost:3000"

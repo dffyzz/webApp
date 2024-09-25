@@ -1,0 +1,85 @@
+/* MemberList.css */
+.member-list {
+    flex: 1;
+    padding: 0 10px 0 10px;
+    overflow-y: auto;
+}
+
+/* @media screen and (max-width: 600px) {
+    .member-list {
+        display: none;
+    }
+} */
+
+.member-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.member-list li {
+    padding: 5px 0;
+}
+
+.member-list h3 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    gap: 10px;
+    margin: 10px 0 10px;
+}
+
+.button-container .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    width: fit-content;
+}
+
+.button-container .button-red {
+    background-color: #dc3545;
+    color: white;
+}
+
+.button-container .button-red:hover {
+    background-color: #c82333;
+}
+
+.button-container .button-green {
+    background-color: #28a745;
+    color: white;
+    align-self: center; /* Центрируем зеленую кнопку */
+}
+
+.button-container .button-green:hover {
+    background-color: #218838;
+}
+
+.user-item {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.user-item:hover {
+    background-color: #f0f0f0;
+}
+
+.pointer-cursor {
+    cursor: pointer;
+}
+
+.pointer-cursor:hover {
+    background-color: #e0e0e0;
+}

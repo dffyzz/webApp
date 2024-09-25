@@ -1,0 +1,83 @@
+.user-profile{
+    background-color: white;
+    /* height: calc(100vh - 47px); */
+}
+
+.back {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 47px);
+    margin: 0;
+}
+
+.user-profile {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.user-profile h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-info div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-info label {
+    font-weight: bold;
+    color: #555;
+}
+
+.user-info span {
+    color: #777;
+}
+
+.user-info input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.user-info button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user-info button:hover {
+    background-color: #0056b3;
+}
+
+.user-info .cancel-button {
+    background-color: #dc3545;
+    margin-top: 5px;
+}
+
+.user-info .cancel-button:hover {
+    background-color: #c82333;
+}

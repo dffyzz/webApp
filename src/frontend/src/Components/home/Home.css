@@ -1,0 +1,5 @@
+.home {
+    height: calc(100vh - 47px);
+    background-color: beige;
+    /* min-height: 900px; */
+}

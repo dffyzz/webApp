@@ -1,0 +1,20 @@
+/* ChatField.css */
+.chat-field {
+    flex: 4;
+    /* padding: 20px; */
+    border-right: 1px solid #ddd;
+}
+
+.chat-field {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 60vw;
+}
+
+.chat-field h2 {
+    margin: 0;
+    padding: 10px;
+    /* border-bottom: 1px solid #ccc; */
+    text-align: center;
+}

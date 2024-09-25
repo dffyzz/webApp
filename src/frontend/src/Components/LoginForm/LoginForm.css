@@ -1,0 +1,140 @@
+.outer {
+    height: 100vh;
+    text-align: center;
+}
+
+.outer:after {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    content: "";
+}
+
+.wrapper {
+    width: 420px;
+    /* background: #1f1f1f; */
+    /* background-color: #ed2553; */
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin: auto;
+    display: inline-block;
+    vertical-align: middle;
+    /* min-height: 100%; */
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.inputs {
+    box-sizing: inherit;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    /* background: salmon; */
+    margin: 1px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: #4d4d4d;
+    border: 0;
+    outline: none;
+    /* border-radius: 40px; */
+    font-size: 16px;
+    color: #d9d9d9;
+    padding: 10px 45px 10px 10px ;
+}
+.input-box:first-of-type input{
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.input-box:last-of-type input{
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+
+.input-box input:hover {
+    background: #666;
+}
+
+.input-box input::placeholder {
+    color: #d9d9d9;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+    
+}
+
+.remember-forgot label input {
+    accent-color: white;
+    margin-right: 4px;
+}
+
+.remember-forgot a {
+    color: white;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    color: #ef3862;
+}
+
+.wrapper button {
+    width: 100%;
+    height: 45px;
+    background: #ed2553;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    margin: 15px 0 0 0;
+}
+
+.wrapper button:hover {
+    background: #ef3862;
+}
+
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    color: #ef3862;
+}
+
+.sign {
+    transform: translateY(12%);
+}

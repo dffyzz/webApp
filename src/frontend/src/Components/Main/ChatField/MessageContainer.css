@@ -1,0 +1,44 @@
+/* MessageContainer.css */
+.message-container {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    /* margin-bottom: 10px; */
+    /* height: 100%; Make the container take the full available height */
+    /* max-width: 70vw; */
+    height: calc(100% - 136px);
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    max-width: 80%;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.message.user {
+    align-self: flex-end;
+    background-color: #e3effd;
+    color: black;
+    text-align: right;
+}
+
+.message.other {
+    align-self: flex-start;
+    background-color: #f1f1f1;
+    color: black;
+    text-align: left;
+}
+
+.message time {
+    display: block;
+    font-size: 0.8em;
+    color:lightgrey;
+    align-self: flex-end;
+}
